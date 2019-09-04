@@ -1,0 +1,81 @@
+body {
+    background-image: url("../images/what-the-hex.png");
+}
+
+.navTitle {
+    background-color: rgb(35, 128, 50);
+    color: #eeeeee;
+    padding: 20px;
+    margin: 0% 0% 0% 16.3%;
+}
+
+.navbar-nav {
+    margin: 0% 20% 0% 0%;
+}
+
+nav a {
+    font-size: 18px;
+    border-right: 2px solid rgb(230, 229, 229);
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    color: #eeeeee;
+    background-color: rgb(42, 120, 236);
+    transition: 1s;
+}
+
+.navbar .navbar-nav .active:hover {
+    color: #eeeeee;
+    background-color:rgb(35, 128, 50);
+    transition: 1s;
+}
+
+nav a:last-child {
+    border-right:none;
+}
+
+.jumboBody {
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color:#ffffff;
+}
+
+.jumboTitle {
+    color:rgb(35, 128, 50);
+}
+
+.headshot {
+    margin:5px 20px 0px 0px;
+}
+
+.aboutText {
+    font-size:20px;
+    line-height:30px;
+}
+
+.portfolioItem {
+    position: relative;
+    margin: 20px 60px 20px 15px;
+}
+
+.portfolioItem img {
+    width:300px;
+}
+
+.portfolioTitle {
+    position: absolute;
+    bottom:10%;
+    background-color: rgb(35, 128, 50);
+    color:#ffffff;
+    text-align:center;
+    width: 100%;
+    margin-right:20px;
+}
+
+.page-footer {
+    background-color: rgb(114, 114, 114);
+    color:#ffffff;
+    font-size:10px;
+    padding: 5px 0px 10px 0px;
+    border-top:5px solid rgb(35,128,50);
+}
