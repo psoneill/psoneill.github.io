@@ -3,10 +3,17 @@ body {
 }
 
 .navTitle {
-    background-color: rgb(35, 128, 50);
+    background-color: rgb(216, 25, 25);
     color: #eeeeee;
+    border: white 2px solid;
     padding: 20px;
     margin: 0% 0% 0% 16.3%;
+}
+
+.navLinks {
+    background-color: rgb(216, 25, 25);
+    border: white 2px solid;
+    padding:5px;
 }
 
 .navbar-nav {
@@ -15,18 +22,22 @@ body {
 
 nav a {
     font-size: 18px;
-    border-right: 2px solid rgb(230, 229, 229);
+    border-right: 2px solid rgb(230, 229, 229);  
+}
+
+.navbar .navbar-nav .nav-item {
+    color: #eeeeee;
 }
 
 .navbar .navbar-nav .nav-item:hover {
     color: #eeeeee;
-    background-color: rgb(42, 120, 236);
+    background-color:#555;
     transition: 1s;
 }
 
 .navbar .navbar-nav .active:hover {
-    color: #eeeeee;
-    background-color:rgb(35, 128, 50);
+    color: #555;
+    background-color:#ffffff;
     transition: 1s;
 }
 
@@ -40,17 +51,33 @@ nav a:last-child {
     background-color:#ffffff;
 }
 
-.jumboTitle {
-    color:rgb(35, 128, 50);
+.scrollImage1,.scrollImage2,.scrollImage3 {
+    position: relative;
+    opacity:0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.headshot {
-    margin:5px 20px 0px 0px;
+.scrollImage1 {
+    background-image: url('../images/Canes1.png');
+    height:800px;
 }
 
-.aboutText {
-    font-size:20px;
-    line-height:30px;
+.scrollImage2 {
+    background-image: url('../images/Canes2.png');
+    min-height:500px;
+}
+
+.scrollImage3 {
+    background-image: url('../images/Canes3.jpg');
+    min-height:500px;
+}
+
+.section {
+    text-align: center;
+    padding:20px 30px;
 }
 
 .portfolioItem {
@@ -77,5 +104,5 @@ nav a:last-child {
     color:#ffffff;
     font-size:10px;
     padding: 5px 0px 10px 0px;
-    border-top:5px solid rgb(35,128,50);
+    border-top:5px solid rgb(255, 2, 2);
 }

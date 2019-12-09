@@ -9,14 +9,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
 <body>
     <div class="container-fullwidth">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark text-white">
             <h3 class="navTitle">Patrick ONeill</h3>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
+                <div class="navbar-nav ml-auto navLinks">
                     <a class="nav-item nav-link" href="index.html" style="padding:0.5em 2em 0.5em 2em;">About</a>
                     <a class="nav-item nav-link active" href="portfolio.html"
                         style="padding:0.5em 2em 0.5em 2em;">Portfolio</a>
@@ -31,55 +37,18 @@
                     <h3 class="jumboTitle">Portfolio</h3>
                     <hr />
                     <div class="row justify-content-md-center">
-                        <div class="portfolioItem">
-                            <a href="https://psoneill.github.io/Responsive-Portfolio/" target="_blank">
-                                <img src="assets/images/Hurricanes.jfif" alt="Hurricanes">
-                                <h3 class="portfolioTitle">Mobile Responsive Portfolio</h3>
-                            </a>
-                        </div>
-                        <div class="portfolioItem">
-                            <a href="https://psoneill.github.io/Word-Guess-Game/" target="_blank">
-                                <img src="assets/images/cardinals.jfif" alt="cardinals">
-                                <h3 class="portfolioTitle">Word Guessing Game</h3>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="portfolioItem">
-                            <a href="https://psoneill.github.io/unit-4-game/" target="_blank">
-                                <img src="assets/images/uga.png" alt="UGA">
-                                <h3 class="portfolioTitle">Star Wars RPG</h3>
-                            </a>
-                        </div>
-                        <div class="portfolioItem">
-                            <a href="https://psoneill.github.io/TriviaGame/" target="_blank">
-                                <img src="assets/images/falcons.jpg" alt="Falcons">
-                                <h3 class="portfolioTitle">Trivia</h3>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="portfolioItem">
-                            <a href="https://psoneill.github.io/gifPopulator/" target="_blank">
-                                <img src="assets/images/ncState.png" alt="NC State">
-                                <h3 class="portfolioTitle">GIF Populator</h3>
-                            </a>
-                        </div>
-                        <div class="portfolioItem">
-                            <a href="https://loganmcnulty.github.io/Project1/ProjectDefault.html" target="_blank">
-                                <img src="assets/images/notreDame.jfif" alt="Notre Dame">
-                            <h3 class="portfolioTitle">NetFIX</h3>
-                            </a>   
+                        <div id="accordionProjects" class="jquery-accordion ui-accordion col-12">
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="page-footer text-center fixed-bottom">
-        Copyright ©
-    </div>
+        <div class="page-footer text-center fixed-bottom">
+            Copyright ©
+        </div>
+        <script type="text/javascript" src="assets/js/portfolio.js"></script>
 </body>
 
 </html>
